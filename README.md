@@ -1,8 +1,7 @@
 # React E-Commerce App
 React is used to create a web application.
 The project's plan is to create an e-commerce site full Responsive.
-Node MongoDB eCommerce Rest API using Stripe payment method. Node.js shopping API tutorial using express, MongoDB, and JWT. 
-
+Node MongoDB eCommerce Rest API using Stripe payment method.
 
 ## Components 
 - Navbar
