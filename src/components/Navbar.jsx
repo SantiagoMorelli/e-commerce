@@ -51,12 +51,16 @@ const LogoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 `;
 
 const Logo = styled.img`
   height: 40px;
+  position: absolute;
 `;
-const LogoName = styled.h1``;
+const LogoName = styled.h1`
+  z-index: 1;
+`;
 const Right = styled.div`
   flex: 1;
   display: flex;
