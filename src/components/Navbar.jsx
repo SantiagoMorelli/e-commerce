@@ -47,10 +47,16 @@ const Center = styled.div`
   text-align: center;
 `;
 
-const Logo = styled.h1`
-  font-weight: bold;
-  ${mobile({ fontSize: '24px' })}
+const LogoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
+
+const Logo = styled.img`
+  height: 40px;
+`;
+const LogoName = styled.h1``;
 const Right = styled.div`
   flex: 1;
   display: flex;
@@ -78,7 +84,10 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <LogoContainer>
+            <Logo src='logo192.png'></Logo>
+            <LogoName>E-COMMERCE</LogoName>
+          </LogoContainer>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
