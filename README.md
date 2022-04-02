@@ -27,5 +27,12 @@ Node MongoDB eCommerce Rest API using Stripe payment method.
 - express
 - JWT
 
+###### Libreries
+
+- @material-ui/core
+- @material-ui/icons
+- Styled-components
+
+
 
 Link [e-comerce](https://beautiful-jalebi-822928.netlify.app/).
