@@ -60,13 +60,14 @@ const Logo = styled.img`
 `;
 const LogoName = styled.h1`
   z-index: 1;
+  ${mobile({ fontSize: '12px' })}
 `;
 const Right = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  ${mobile({ flex: 2, justifyContent: 'center' })}
+  ${mobile({ flex: 1.5, justifyContent: 'center' })}
 `;
 
 const MenuItem = styled.div`
